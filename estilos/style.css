@@ -42,3 +42,21 @@ iframe#tela{
     width: 268px;
 }
 
+section a{
+    display: block;
+    text-align: right;
+    padding: 10px;
+}
+
+section a > img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+section a > img:hover{
+    border: 3px solid white;
+    transform: translate(-5px, -5px);
+    transition: transform .5s, border .4s;
+}
