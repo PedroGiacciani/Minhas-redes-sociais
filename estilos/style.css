@@ -35,27 +35,25 @@ section#telefone{
 
 iframe#tela{
     position: relative;
-    top: 69px;
-    left: 22px;
+    top: 80px;
+    left: 21px;
 
-    height: 483px;
-    width: 268px;
+    height: 472px;
+    width: 269px;
 }
 
-section a{
-    display: block;
+section#redes-sociais{
     text-align: right;
-    padding: 10px;
 }
 
-section a > img{
+section#redes-sociais img{
     width: 75px;
-    height: 75px;
+    margin: 10px;
     border-radius: 50%;
     box-sizing: border-box;
 }
 
-section a > img:hover{
+section#redes-sociais img:hover{
     border: 3px solid white;
     transform: translate(-5px, -5px);
     transition: transform .5s, border .4s;
